@@ -5,13 +5,17 @@
 }
 
 body {
-    background-color: #d8d8e1;
+    background-color: #37373f;
 }
 
 canvas {
-    background-color: white;
+    background-color: #121212;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+span {
+    color: whitesmoke;
 }
 
 .container {
@@ -24,7 +28,7 @@ canvas {
 
 .tool-box {
     width: 110px;
-    background-color: #fff;
+    background-color: #121212;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     margin-left: 40px;
@@ -53,7 +57,7 @@ canvas {
 
 .button__tool:hover,
 .button__size:hover {
-    background-color: #f2f2f2;
+    background-color: #252525;
 }
 
 .input__color {
@@ -76,7 +80,7 @@ canvas {
 
 .button__size > span {
     width: 100%;
-    background-color: #000;
+    background-color: whitesmoke;
     border-radius: 100px;
     display: block;
 }
@@ -98,5 +102,5 @@ canvas {
 }
 
 .active {
-    background-color: #f2f2f2;
+    background-color: #252525;
 }
